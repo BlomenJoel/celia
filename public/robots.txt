@@ -1,0 +1,6 @@
+# www.robotstxt.org/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.celia-restaurant.se/sitemap.xml
