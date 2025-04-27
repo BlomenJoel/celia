@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { Alice } from "next/font/google"
 import "./globals.css"
 import Script from "next/script"
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // Import Alice font
 const alice = Alice({
@@ -86,6 +86,7 @@ export default function RootLayout({
         {children}
 
         {/* Strukturerad data för restaurangen (JSON-LD) */}
+        <SpeedInsights />
         <Script
           id="restaurant-schema"
           type="application/ld+json"
