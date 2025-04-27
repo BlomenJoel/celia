@@ -4,7 +4,6 @@ import { Alice } from "next/font/google"
 import "./globals.css"
 import Script from "next/script"
 
-import { Toaster } from "@/components/ui/toaster"
 
 // Import Alice font
 const alice = Alice({
@@ -15,10 +14,10 @@ const alice = Alice({
 })
 
 export const metadata: Metadata = {
-  title: "Celia Vin och Bar | Utsökt mat i Skärhamn<<",
+  title: "Celia Vin och Bar | En modern vinbar för alla.",
   description:
-    "Välkommen till Celia - en restaurang med utsökt mat i en varm och välkomnande atmosfär i Skärhamn. Boka bord idag!",
-  keywords: ["restaurang skärhamn", "celia restaurang","boka bord"],
+    "Välkommen till Celia - en modern vinbar med utsökt mat i en varm och välkomnande atmosfär i Skärhamn. Boka bord idag!",
+  keywords: ["restaurang skärhamn", "celia restaurang", "boka bord"],
   authors: [{ name: "Celia Vin och Bar" }],
   creator: "Celia Vin och Bar",
   publisher: "Celia Vin och Bar",
@@ -35,9 +34,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "sv_SE",
     url: "https://celiavinochbar.se/",
-    title: "Celia Vin och Bar | Utsökt mat i Stockholm",
+    title: "Celia Vin och Bar | En modern vinbar för alla.",
     description:
-      "Välkommen till Celia - en restaurang med utsökt mat i en varm och välkomnande atmosfär i centrala Stockholm. Boka bord idag!",
+      "Välkommen till Celia - en modern vinbar med utsökt mat i en varm och välkomnande atmosfär i Skärhamn. Boka bord idag!",
     siteName: "Celia Vin och Bar",
     images: [
       {
@@ -50,9 +49,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Celia Vin och Bar | Utsökt mat i Stockholm",
+    title: "Celia Vin och Bar | En modern vinbar för alla.",
     description:
-      "Välkommen till Celia - en restaurang med utsökt mat i en varm och välkomnande atmosfär i centrala Stockholm. Boka bord idag!",
+      "Välkommen till Celia - en modern vinbar med utsökt mat i en varm och välkomnande atmosfär i Skärhamn. Boka bord idag!",
     images: ["/twitter-image.jpg"],
   },
   robots: {
@@ -66,14 +65,14 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    icon: "/celia-logo.png",
+    shortcut: "/celia-logo.png",
+    apple: "/celia-logo.png",
   },
-  verification: {
-    google: "google-site-verification-code", // Ersätt med din verifieringskod
-  },
-    generator: 'v0.dev'
+  // verification: {
+  //   google: "google-site-verification-code", // Ersätt med din verifieringskod
+  // },
+  generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -85,12 +84,12 @@ export default function RootLayout({
     <html lang="sv">
       <body className={`${alice.variable} font-alice`}>
         {children}
-        <Toaster />
 
         {/* Strukturerad data för restaurangen (JSON-LD) */}
         <Script
           id="restaurant-schema"
           type="application/ld+json"
+          strategy="beforeInteractive"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
@@ -99,32 +98,33 @@ export default function RootLayout({
               image: "https://celiavinochbar.se/restaurant-image.jpg",
               "@id": "https://celiavinochbar.se/",
               url: "https://celiavinochbar.se/",
-              telephone: "+15551234567",
+              telephone: "+46702450952",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "Storgatan 123",
-                addressLocality: "Stockholm",
-                postalCode: "111 23",
+                streetAddress: "Södra Hamnen 12",
+                addressLocality: "Skärhamn",
+                postalCode: "471 32",
                 addressCountry: "SE",
-              },
-              geo: {
-                "@type": "GeoCoordinates",
-                latitude: 59.3293,
-                longitude: 18.0686,
               },
               priceRange: "$$",
               openingHoursSpecification: [
                 {
                   "@type": "OpeningHoursSpecification",
-                  dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-                  opens: "11:00",
-                  closes: "22:00",
+                  dayOfWeek: ["Friday"],
+                  opens: "17:00",
+                  closes: "01:00",
                 },
                 {
                   "@type": "OpeningHoursSpecification",
-                  dayOfWeek: ["Saturday", "Sunday"],
-                  opens: "10:00",
-                  closes: "23:00",
+                  dayOfWeek: ["Saturday"],
+                  opens: "12:00",
+                  closes: "01:00",
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  dayOfWeek: ["Sunday"],
+                  opens: "12:00",
+                  closes: "17:00",
                 },
               ],
               servesCuisine: ["Svensk", "Europeisk"],

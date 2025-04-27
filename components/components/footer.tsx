@@ -13,7 +13,7 @@ export default function footer() {
                     <div className="flex flex-col space-y-4 text-center">
                         <h3 className="text-xl font-normal">Kontakt</h3>
                         <div>
-                            <a href="tel:+46702450952 " className="text-gray-300 md:hover:text-accent">
+                            <a href="tel:+46702450952" className="text-gray-300 md:hover:text-accent">
                                 +46 702-450952
                             </a>
                         </div>
