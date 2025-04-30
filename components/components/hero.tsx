@@ -1,20 +1,22 @@
 import { ChevronRight, FileText } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Erica } from '../svg/ericahand';
+import { Elin } from '../svg/elin';
 
 
 export default function Home() {
     return (
         <section className="relative" aria-labelledby="hero-heading">
-            <div className="h-screen w-full ">
-            </div>
-            <div className="absolute inset-0 flex items-center ">
+            <div className="h-screen w-full inset-0 flex items-center ">
                 <div className="w-full">
-                    <div className="mx-auto  text-center max-w-md space-y-4 text-white">
-                        <h1 id="hero-heading" className="text-4xl font-normal leading-tight md:text-5xl">
-                            Celia Vin och Bar
-                        </h1>
-                        <Erica />
+                    <div className="mx-auto text-center max-w-3xl space-y-4 text-white">
+                        <div className="flex flex-row gap-4">
+                            <Elin className="max-h-64" />
+                            <h1 id="hero-heading" className="text-4xl font-normal leading-tight md:text-5xl">
+                                Celia Vin och Bar
+                            </h1>
+                            <Erica className="max-h-64" />
+                        </div>
                         <p className="text-xl">En modern vinbar för alla.</p>
                         <div className="flex flex-wrap gap-3 justify-center">
                             <Button asChild size="lg" className="mt-4 bg-accent text-tertiary hover:bg-accent/90">
