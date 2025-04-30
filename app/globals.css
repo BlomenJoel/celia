@@ -67,13 +67,26 @@
 }
 
 @layer base {
+
+  @keyframes swing {
+    from {
+      transform: rotate(-5deg);
+    }
+
+    to {
+      transform: rotate(5deg);
+    }
+  }
+
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-alice), serif;
   }
+
   h1,
   h2,
   h3,
