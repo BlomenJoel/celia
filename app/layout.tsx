@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Celia Vin och Bar | En modern vinbar för alla.",
   description:
     "Välkommen till Celia - en modern vinbar med utsökt mat i en varm och välkomnande atmosfär i Skärhamn. Boka bord idag!",
-  keywords: ["restaurang skärhamn", "celia restaurang", "boka bord"],
+  keywords: ["restaurang skärhamn", "celia vin och bar", "lunch skärhamn", "boka bord"],
   authors: [{ name: "Celia Vin och Bar" }],
   creator: "Celia Vin och Bar",
   publisher: "Celia Vin och Bar",

@@ -42,7 +42,7 @@ export default function footer() {
 
                 <div className="mt-12  pt-8 text-center">
                     <p className="text-sm text-gray-400">
-                        © {new Date().getFullYear()} Celia Restaurant. Alla rättigheter förbehållna.
+                        © {new Date().getFullYear()} Celia Vin och Bar. Alla rättigheter förbehållna.
                     </p>
                 </div>
             </div>

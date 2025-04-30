@@ -2,6 +2,7 @@ import { ChevronRight, FileText } from "lucide-react"
 import Image from "next/image"
 
 import { Button } from "@/components/ui/button"
+// import { Erica } from '../svg/ericahand';
 
 
 export default function Home() {
@@ -13,8 +14,9 @@ export default function Home() {
                 <div className="w-full">
                     <div className="mx-auto  text-center max-w-md space-y-4 text-white">
                         <h1 id="hero-heading" className="text-4xl font-normal leading-tight md:text-5xl">
-                            Celia Restaurant
+                            Celia Vin och Bar
                         </h1>
+                        {/* <Erica /> */}
                         <p className="text-xl">En modern vinbar för alla.</p>
                         <div className="flex flex-wrap gap-3 justify-center">
                             <Button asChild size="lg" className="mt-4 bg-accent text-tertiary hover:bg-accent/90">
