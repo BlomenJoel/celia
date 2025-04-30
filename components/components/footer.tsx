@@ -32,9 +32,6 @@ export default function footer() {
                         </a>
                     </Button>
                     <div className="flex flex-wrap gap-4">
-                        Sorry I meant do another scan to check the website SEO
-
-
                         <Facebook href="https://www.facebook.com/Celiavinochbar" target="_blank" className="h-6 w-6 text-gray-300 hover:text-accent" />
                         <Instagram href="https://www.instagram.com/celiavinochbar/" target="_blank" className="h-6 w-6 text-gray-300 hover:text-accent" />
                     </div>
