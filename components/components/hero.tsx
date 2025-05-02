@@ -1,6 +1,7 @@
 import { ChevronRight, FileText } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Erica } from '../svg/ericahand';
+import Image from "next/image";
 
 
 export default function Home() {
@@ -9,11 +10,12 @@ export default function Home() {
             <div className="h-screen w-full inset-0 flex items-center ">
                 <div className="w-full">
                     <div className="mx-auto text-center max-w-3xl space-y-4 text-white">
-                        <h1 id="hero-heading" className="z-10 relative text-4xl font-normal leading-tight md:text-5xl">
+                        <Image src="/celia-logo.png" alt="Celia Vin och Bar" className="relative w-96 mx-auto" height={10} width={400}  />
+                        {/* <h1 id="hero-heading" className="z-10 relative text-4xl font-normal leading-tight md:text-5xl">
                             Celia Vin och Bar
-                        </h1>
-                        <div className="absolute right-4 md:right-24 top-12 h-96 z-0">
-                            <Erica className="h-96" />
+                        </h1> */}
+                        <div className="absolute top-12 w-full z-0 right-0">
+                            <Erica className="w-1/3 max-w-screen-md ml-auto mr-12 mt-12" />
                         </div>
                         <p className="text-xl relative">En modern vinbar för alla.</p>
                         <div className="flex flex-wrap gap-3 justify-center relative">
