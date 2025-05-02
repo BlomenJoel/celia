@@ -65,9 +65,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/celia-logo.png",
-    shortcut: "/celia-logo.png",
-    apple: "/celia-logo.png",
+    icon: "/celia-favicon.png",
+    shortcut: "/celia-favicon.png",
+    apple: "/celia-favicon.png",
   },
   // verification: {
   //   google: "google-site-verification-code", // Ersätt med din verifieringskod

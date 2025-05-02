@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export default function footer() {
     return (
-        <footer className="mt-auto py-16 text-white">
+        <footer className="mt-auto py-16 text-white bg-foreground">
             <div className="container">
                 <div className="flex flex-col gap-4 items-center">
 
