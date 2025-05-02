@@ -32,10 +32,10 @@ export default function footer() {
                         </a>
                     </Button>
                     <div className="flex flex-wrap gap-4">
-                        <a href="https://www.facebook.com/Celiavinochbar" target="_blank" className="h-6 w-6 text-gray-300 hover:text-accent">
+                        <a href="https://www.facebook.com/Celiavinochbar" rel="noopener" target="_blank" className="h-6 w-6 text-gray-300 hover:text-accent">
                             <Facebook />
                         </a>
-                        <a href="https://www.instagram.com/celiavinochbar/" target="_blank" className="h-6 w-6 text-gray-300 hover:text-accent" >
+                        <a href="https://www.instagram.com/celiavinochbar/" target="_blank" rel="noopener" className="h-6 w-6 text-gray-300 hover:text-accent" >
                             <Instagram />
                         </a>
                     </div>
