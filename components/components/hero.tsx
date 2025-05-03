@@ -10,12 +10,9 @@ export default function Home() {
             <div className="h-screen w-full inset-0 flex items-center ">
                 <div className="w-full">
                     <div className="mx-auto text-center max-w-3xl space-y-4 text-white">
-                        <Image src="/celia-logo.png" alt="Celia Vin och Bar" className="relative w-96 mx-auto" height={10} width={400}  />
-                        {/* <h1 id="hero-heading" className="z-10 relative text-4xl font-normal leading-tight md:text-5xl">
-                            Celia Vin och Bar
-                        </h1> */}
-                        <div className="absolute top-12 w-full z-0 right-0">
-                            <Erica className="w-1/3 max-w-screen-md ml-auto mr-12 mt-12" />
+                        <Image src="/celia-logo.png" alt="Celia Vin och Bar" className="relative w-96 mx-auto px-8" height={10} width={400} />
+                        <div className="absolute bottom-0 w-full z-0 right-0">
+                            <Erica className="lg:w-1/4 sm:w-1/3 w-2/3 max-w-screen-md ml-auto lg:mr-24 mb-0" />
                         </div>
                         <p className="text-xl relative">En modern vinbar för alla.</p>
                         <div className="flex flex-wrap gap-3 justify-center relative">
@@ -40,7 +37,7 @@ export default function Home() {
                                 </a>
                             </Button>
                         </div>
-                        <div className="flex flex-col gap-3 pt-48 relative">
+                        <div className="flex flex-col gap-3 md:pt-36 pt-24 relative">
                             <h2 className="text-xl font-normal">Öppettider</h2>
                             <p className="text-gray-300">Fredag kl.17-sent</p>
                             <p className="text-gray-300">Lördag  kl.12-sent</p>
