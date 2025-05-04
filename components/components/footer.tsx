@@ -26,11 +26,6 @@ export default function footer() {
                             Södra Hamnen 12, 471 32 Skärhamn
                         </address>
                     </div>
-                    <Button asChild size="lg" className="mt-4 bg-accent text-tertiary hover:bg-accent/90">
-                        <a href="https://app.bokabord.se/reservation/?hash=8fd41fbc7295a70f4ef03bb9ab287a23" target="_blank" aria-label="Ring för att boka bord">
-                            Boka bord <ChevronRight className="ml-2 h-4 w-4" />
-                        </a>
-                    </Button>
                     <div className="flex flex-wrap gap-4">
                         <a href="https://www.facebook.com/Celiavinochbar" rel="noopener" target="_blank" className="h-6 w-6 text-gray-300 hover:text-accent">
                             <Facebook />

@@ -73,6 +73,10 @@
     stroke-miterlimit: 10;
   }
 
+  .st0 {
+    @apply fill-primary;
+  }
+
   .swing-me {
     transform-box: 'fill-box';
     transform-origin: '100% 100%';
@@ -87,6 +91,15 @@
 
     to {
       transform: rotate(10deg);
+    }
+  }
+  @keyframes tap {
+    from {
+      transform: rotate(-5deg);
+    }
+
+    to {
+      transform: rotate(5deg);
     }
   }
 

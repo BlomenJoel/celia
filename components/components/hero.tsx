@@ -39,8 +39,8 @@ export default function Home() {
                         </div>
                         <div className="flex flex-col gap-3 md:pt-36 pt-24 relative">
                             <h2 className="text-xl font-normal">Öppettider</h2>
-                            <p className="text-gray-300">Fredag kl.17-sent</p>
-                            <p className="text-gray-300">Lördag  kl.12-sent</p>
+                            <p className="text-gray-300">Fredag kl.17-01</p>
+                            <p className="text-gray-300">Lördag  kl.12-01</p>
                             <p className="text-gray-300">Söndag  kl.12-17</p>
                         </div>
                     </div>

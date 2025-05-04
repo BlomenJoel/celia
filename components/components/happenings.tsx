@@ -16,7 +16,20 @@ export default function happenings() {
                     <div className="h-full flex flex-col justify-center">
                         <Button asChild size="lg" className="bg-accent text-tertiary hover:bg-accent/90">
                             <a href="https://app.bokabord.se/reservation/?hash=8fd41fbc7295a70f4ef03bb9ab287a23" target="_blank" aria-label="Ring för att boka bord">
-                                Mer info
+                                Boka här
+                            </a>
+                        </Button>
+                    </div>
+                </div>
+                <div className="pt-4 flex justify-between md:gap-24 gap-8 text-left">
+                    <div className="max-w-80">
+                        <h3 className="text-lg font-normal">Bubbelprovning 30/5 17.30-18.30</h3>
+                        <p className="text-gray-300">Lär dig skillnaden på klassiska bubblor och ett bubbligt wildcard! Provning på Verandan 295 kr/person.</p>
+                    </div>
+                    <div className="h-full flex flex-col justify-center">
+                        <Button asChild size="lg" className="bg-accent text-tertiary hover:bg-accent/90">
+                            <a href="https://app.bokabord.se/reservation/?hash=8fd41fbc7295a70f4ef03bb9ab287a23" target="_blank" aria-label="Ring för att boka bord">
+                                Boka här
                             </a>
                         </Button>
                     </div>
