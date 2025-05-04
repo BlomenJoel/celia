@@ -67,13 +67,51 @@
 }
 
 @layer base {
+  .st0 {
+    @apply fill-primary;
+    stroke: #000;
+    stroke-miterlimit: 10;
+  }
+
+  .st0 {
+    @apply fill-primary;
+  }
+
+  .swing-me {
+    transform-box: 'fill-box';
+    transform-origin: '100% 100%';
+    /* swing from -30deg to +30deg, back and forth forever */
+    animation: 'swing 1s ease-in infinite alternate'
+  }
+
+  @keyframes swing {
+    from {
+      transform: rotate(-10deg);
+    }
+
+    to {
+      transform: rotate(10deg);
+    }
+  }
+  @keyframes tap {
+    from {
+      transform: rotate(-5deg);
+    }
+
+    to {
+      transform: rotate(5deg);
+    }
+  }
+
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
     font-family: var(--font-alice), serif;
   }
+
   h1,
   h2,
   h3,
