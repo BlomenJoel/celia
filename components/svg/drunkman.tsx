@@ -1,7 +1,7 @@
 'use client'
-import React, { useState } from 'react';
+import React from 'react';
 
-export function Erica(props: any) {
+export function DrunkMan(props: any) {
 
     return (
         <svg

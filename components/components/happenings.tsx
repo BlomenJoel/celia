@@ -14,7 +14,9 @@ export default function happenings() {
                         <p className="text-gray-300">Tyska viner ihop med sparris och annat gott. Katharina Winter från vinhuset Georg Müller i Rheingau gästar oss!</p>
                     </div>
                     <div className="h-full flex flex-col justify-center">
-                        <Button asChild size="lg" className="bg-accent text-tertiary hover:bg-accent/90">
+                        <Button asChild size="lg" variant="outline"
+                            className="mt-4 border-accent bg-transparent text-white hover:bg-accent hover:text-tertiary"
+                        >
                             <a href="https://app.bokabord.se/reservation/?hash=8fd41fbc7295a70f4ef03bb9ab287a23" target="_blank" aria-label="Ring för att boka bord">
                                 Boka här
                             </a>
@@ -27,7 +29,12 @@ export default function happenings() {
                         <p className="text-gray-300">Lär dig skillnaden på klassiska bubblor och ett bubbligt wildcard! Provning på Verandan 295 kr/person.</p>
                     </div>
                     <div className="h-full flex flex-col justify-center">
-                        <Button asChild size="lg" className="bg-accent text-tertiary hover:bg-accent/90">
+                        <Button
+                            asChild
+                            size="lg"
+                            variant="outline"
+                            className="mt-4 border-accent bg-transparent text-white hover:bg-accent hover:text-tertiary"
+                        >
                             <a href="https://app.bokabord.se/reservation/?hash=8fd41fbc7295a70f4ef03bb9ab287a23" target="_blank" aria-label="Ring för att boka bord">
                                 Boka här
                             </a>
