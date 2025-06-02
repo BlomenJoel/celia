@@ -10,8 +10,8 @@ export default function happenings() {
                 <h2 className="text-xl font-normal">Händer hos oss</h2>
                 <div className="pt-4 flex justify-between md:gap-24 gap-8 text-left">
                     <div className="max-w-80">
-                        <h3 className="text-lg font-normal">Winemakers 27/5 18.30</h3>
-                        <p className="text-gray-300">Tyska viner ihop med sparris och annat gott. Katharina Winter från vinhuset Georg Müller i Rheingau gästar oss!</p>
+                        <h3 className="text-lg font-normal">Beer Makers Dinner 26/6 18.30</h3>
+                        <p className="text-gray-300">Vi gästas av de lokala bryggeriet från Rönnäng! Olika ölstilar matchas ihop med en 5-rätters middag, hur trevligt?</p>
                     </div>
                     <div className="h-full flex flex-col justify-center">
                         <Button asChild size="lg" variant="outline"
@@ -25,8 +25,8 @@ export default function happenings() {
                 </div>
                 <div className="pt-4 flex justify-between md:gap-24 gap-8 text-left">
                     <div className="max-w-80">
-                        <h3 className="text-lg font-normal">Bubbelprovning 30/5 17.30-18.30</h3>
-                        <p className="text-gray-300">Lär dig skillnaden på klassiska bubblor och ett bubbligt wildcard! Provning på Verandan 295 kr/person.</p>
+                        <h3 className="text-lg font-normal">Bubbelprovning Wildcard 4/7 17.30-18.30</h3>
+                        <p className="text-gray-300">En timme utan de klassiska bubblorna! Provning på verandan. 395kr/pp</p>
                     </div>
                     <div className="h-full flex flex-col justify-center">
                         <Button
