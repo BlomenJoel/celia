@@ -10,17 +10,8 @@ export default function happenings() {
                 <h2 className="text-xl font-normal">Händer hos oss</h2>
                 <div className="pt-4 flex justify-between md:gap-24 gap-8 text-left">
                     <div className="max-w-80">
-                        <h3 className="text-lg font-normal">Beer Makers Dinner 26/6 18.30</h3>
-                        <p className="text-gray-300">Vi gästas av de lokala bryggeriet från Rönnäng! Olika ölstilar matchas ihop med en 5-rätters middag, hur trevligt?</p>
-                    </div>
-                    <div className="h-full flex flex-col justify-center">
-                        <Button asChild size="lg" variant="outline"
-                            className="mt-4 border-accent bg-transparent text-white hover:bg-accent hover:text-tertiary"
-                        >
-                            <a href="https://app.bokabord.se/reservation/?hash=8fd41fbc7295a70f4ef03bb9ab287a23" target="_blank" aria-label="Ring för att boka bord">
-                                Boka här
-                            </a>
-                        </Button>
+                        <h3 className="text-lg font-normal">Ostron och Deutz 28/6</h3>
+                        <p className="text-gray-300">Pangpris på ostron mella 17-19!</p>
                     </div>
                 </div>
                 <div className="pt-4 flex justify-between md:gap-24 gap-8 text-left">
