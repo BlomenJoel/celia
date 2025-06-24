@@ -28,14 +28,30 @@ export default function Home() {
                                 className="mt-4 border-accent bg-transparent text-white hover:bg-accent hover:text-tertiary"
                             >
                                 <a
-                                    href="/menu.pdf"
+                                    href="/CeliaLunchmeny.pdf"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     aria-label="Öppna vår meny i PDF-format"
                                 >
-                                    <FileText className="mr-2 h-4 w-4" /> Se meny
+                                    <FileText className="mr-2 h-4 w-4" /> Se lunchmeny
                                 </a>
                             </Button>
+                            <Button
+                                asChild
+                                size="lg"
+                                variant="outline"
+                                className="mt-4 border-accent bg-transparent text-white hover:bg-accent hover:text-tertiary"
+                            >
+                                <a
+                                    href="/CeliaKvällsmeny.pdf"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="Öppna vår meny i PDF-format"
+                                >
+                                    <FileText className="mr-2 h-4 w-4" /> Se kvällsmeny
+                                </a>
+                            </Button>
+
                         </div>
                         <div className="flex flex-col gap-3 md:pt-36 pt-24 relative">
                             <h2 className="text-xl font-normal">Öppettider</h2>
