@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <main className="flex min-h-screen flex-col font-alice bg-primary text-white">
         <Hero />
-        <Happenings />
+        {/* <Happenings /> */}
         <Footer />
       </main>
     </>

@@ -10,11 +10,10 @@ export default function happenings() {
                 <h2 className="text-xl font-normal">Händer hos oss</h2>
                 <div className="pt-4 flex justify-between md:gap-24 gap-8 text-left">
                     <div className="max-w-80">
-                        <h3 className="text-lg font-normal">Ostron och Deutz 28/6</h3>
-                        <p className="text-gray-300">Pangpris på ostron mella 17-19!</p>
+                        <h3 className="text-lg font-normal">Kolla Instagram för kommande evenemang</h3>
                     </div>
                 </div>
-                <div className="pt-4 flex justify-between md:gap-24 gap-8 text-left">
+                {/* <div className="pt-4 flex justify-between md:gap-24 gap-8 text-left">
                     <div className="max-w-80">
                         <h3 className="text-lg font-normal">Bubbelprovning Wildcard 4/7 17.30-18.30</h3>
                         <p className="text-gray-300">En timme utan de klassiska bubblorna! Provning på verandan. 395kr/pp</p>
@@ -31,7 +30,7 @@ export default function happenings() {
                             </a>
                         </Button>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
