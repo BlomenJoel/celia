@@ -41,8 +41,8 @@ export default function Home() {
                         </div>
                         <div className="flex flex-col gap-3 md:pt-36 pt-24 relative">
                             <h2 className="text-xl font-normal">Öppettider</h2>
-                            <p className="text-gray-300">Torsdag-Fredag från 17</p>
-                            <p className="text-gray-300">Lördag-Söndag från 12</p>
+                            <p className="text-gray-300">Fredag från 17</p>
+                            <p className="text-gray-300">Lördag från 12</p>
                             <p className="text-gray-300">Kolla Instagram för avvikande öppettider</p>
                         </div>
                     </div>
