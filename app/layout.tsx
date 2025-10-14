@@ -108,26 +108,6 @@ export default function RootLayout({
                 addressCountry: "SE",
               },
               priceRange: "$$",
-              openingHoursSpecification: [
-                {
-                  "@type": "OpeningHoursSpecification",
-                  dayOfWeek: ["Friday"],
-                  opens: "17:00",
-                  closes: "01:00",
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  dayOfWeek: ["Saturday"],
-                  opens: "12:00",
-                  closes: "01:00",
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
-                  dayOfWeek: ["Sunday"],
-                  opens: "12:00",
-                  closes: "17:00",
-                },
-              ],
               servesCuisine: ["Svensk", "Europeisk"],
               menu: "https://celiavinochbar.se/menu.pdf",
               acceptsReservations: "True",
